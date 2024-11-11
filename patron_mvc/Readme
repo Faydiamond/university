@@ -1,0 +1,22 @@
+// por favor instala la extension Thunder Client para vs code
+// puedes probar y hacer peticiones  para eso dejo un archivo en formato thunder, el mismo se abre con la extension de vscode  Thunder Client 
+
+
+// npm i para descargar los paqueted se node
+
+//iniciar la aplicacion comandos:
+//npm run dev o node --watch app.js 
+
+// se implemento el patron MVC
+
+//se trabajo con procedimientos almacenados y triggers
+
+//subi la base de datos la nube para facilitar la validacion de la misma
+//compartire el repositorio de guthub para su respectiva validacion
+
+//  he dejado el script de la base de datos, el mismo lo puede encontrar en la carpeta querys_consultas
+
+
+
+
+//Muchas gracias y buen dia.

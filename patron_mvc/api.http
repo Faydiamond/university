@@ -1,0 +1,43 @@
+
+###recuperar estudiante
+GET  http://localhost:3005/students/2
+
+###listado de estudiantes 
+GET http://localhost:3005/students
+
+###insertar student
+POST http://localhost:3005/Students
+Content-Type: application/json
+{
+  "nombre": "Sofia",
+  "apellido": "Yepes sala",
+  "direccion": "calle 124",
+  "correo_electronico": "Sofhsdfgju@gmail.com",
+  "clave": "13455445",
+  "fecha_nacimiento": "2006-10-04",
+  "id_programa": 1,
+  "id_ciudad": 2
+}
+
+## actualizar student por favor utiliza postamn , nombre en postman actualizar_student
+
+##eliminar student por favor utiliza postamn , nombre del archivo en  postman delete_student
+DELETE  http://localhost:3005/students/12
+
+### Fin Students #######################################################################################
+
+### Inicio inscriptions
+GET  http://localhost:3005/inscriptions/
+## recuperar inscripcion por id
+
+GET  http://localhost:3005/inscriptions/3
+## crear inscripcion
+
+### Crear una película con POST
+POST http://localhost:3005/inscriptions
+Content-Type: application/json
+
+{
+  "id_estudiante": 13,
+  "id_materia": 1
+}

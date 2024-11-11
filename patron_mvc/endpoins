@@ -1,0 +1,32 @@
+students:
+    - Get_students:
+        - get_student_correo : http://localhost:3005/students?correo=pedrolop@gmail.com
+        - get_student : http://localhost:3005/students
+        - get_id : http://localhost:3005/students/1
+    - view_student:
+        - New Request : http://localhost:3005/viewStudent/2
+        - Student_materia : http://localhost:3005/viewStudent?idStudent=2
+    - crear_student : 
+        - ur: http://localhost:3005/students
+        - body : {
+                "nombre":"Sonia Catalina",
+                "apellido":"Mora",
+                "direccion":"calle 4625",
+                "correo_electronico":"SoniaMora@gmail.com",
+                "clave":"5562556",
+                "fecha_nacimiento":"1887-05-20",
+                "id_programa":2,
+                "id_ciudad":3
+          }
+    - actualizar_student : 
+        - url : http://localhost:3005/students/4
+        - body : {
+                "nombre":"Carolina Amanda",
+                "apellido":"Gomez Esparza",
+                "direccion":"calle  falsa 123",
+                "correo_electronico":"CarolinaGom@gmail.com",
+                "clave":"562556Upt",
+                "fecha_nacimiento":"1887-05-20",
+                "id_programa":2,
+                "id_ciudad":3
+            }
